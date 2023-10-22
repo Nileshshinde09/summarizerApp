@@ -1,4 +1,5 @@
 import nltk
+nltk.download('punkt')
 from nltk import sent_tokenize,word_tokenize
 from nltk.stem.porter import PorterStemmer
 import math
