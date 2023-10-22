@@ -2,7 +2,8 @@ import streamlit as st
 from home import *
 from mlcode import *
 from About import *
-
+import nltk
+nltk.download('punkt')
 
 st.set_page_config(
         page_title="Summarizer",
